@@ -430,7 +430,7 @@ CHASE,,,,,,,,,
 ,Deposit,7/16/20,,"GoldenWest Management, Inc",Fort Pike,X,Rental Income,20,6619.65
 ,Check,7/20/20,,REPUBLIC SERVICE,Fort Pike,X,Utilities,-46.65,6573
 ,Check,7/22/20,,Clark County Water Reclamation,Fort Pike,X,Utilities,-231.16,6341.84
-,Check,8/17/20,,"GoldenWest Management, Inc",,X,Management Fees,-115,6226.84
+,Check,8/17/20,,"GoldenWest Management, Inc",Bright Leaf,X,Management Fees,-115,6226.84
 ,Check,8/17/20,,"GoldenWest Management, Inc",Bright Leaf Lease Renew Fee,X,Management Fees,-150,6076.84
 ,Check,8/17/20,,"GoldenWest Management, Inc",Fort Pike,X,Management Fees,-145,5931.84
 ,Deposit,8/17/20,,"GoldenWest Management, Inc",Fort Pike,X,Rental Income,1595,7526.84
@@ -513,7 +513,7 @@ CHASE,,,,,,,,,
 ,Deposit,4/1/21,,"GoldenWest Management, Inc",Fort Pike,X,Rental Income,1795,24646.76
 ,Deposit,4/1/21,,"GoldenWest Management, Inc",Fort Pike,X,Rental Income,35,24681.76
 ,Check,4/1/21,,PRIORTY APPLIANCES,"Fort Pike new GE 30"" GAS RANGE $773.34+35",X,Repairs and Maintenance,-808.34,23873.42
-,Check,4/9/21,,FRANCHISE TAX BOARD,,X,LLC Tax,-800,23073.42
+,Check,4/9/21,,FRANCHISE TAX BOARD,2021,X,LLC Tax,-800,23073.42
 ,Check,4/12/21,,REPUBLIC SERVICE,pay gift card Fort Pike,X,Utilities,-46.65,23026.77
 ,Check,5/3/21,,"GoldenWest Management, Inc",Fort Pike,X,Management Fees,-145,22881.77
 ,Check,5/3/21,,"GoldenWest Management, Inc",Bright Leaf,X,Management Fees,-115,22766.77
