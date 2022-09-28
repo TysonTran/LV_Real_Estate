@@ -30,19 +30,19 @@ The main goal for investors is to grow their money over the long term. While the
 
 ### Overview of Data
 
-<img src="./uncleaned_data.png">
+<img src="./uncleaned_data.png" width=1000 height=600>
 
-<img src="./clean_data.png">
+<img src="./clean_data.png" width=1000 heigh =600>
 
-<iframe src='./PCT-Growth.html' width=600 height=400 frameBorder=0></iframe>
+<iframe src='./PCT-Growth.html' width=1000 height=600 frameBorder=0></iframe>
 
 
-<iframe src='./Revenue.html' width=600 height=400 frameBorder=0></iframe>
+<iframe src='./Revenue.html' width=1000 height=600 frameBorder=0></iframe>
 
-<iframe src='./Repairs and Maintenance Rev.html' width=600 height=400 frameBorder=0></iframe>
+<iframe src='./Repairs and Maintenance Rev.html' width=1000 height=600 frameBorder=0></iframe>
 
-<iframe src='./NOI.html' width=600 height=400 frameBorder=0></iframe>
+<iframe src='./NOI.html' width=1000 height=600 frameBorder=0></iframe>
 
-<iframe src='./CapRate.html' width=600 height=400 frameBorder=0></iframe>
+<iframe src='./CapRate.html' width=1000 height=600 frameBorder=0></iframe>
 
-<iframe src='./COC.html' width=600 height=400 frameBorder=0></iframe>
+<iframe src='./COC.html' width=1000 height=600 frameBorder=0></iframe>
