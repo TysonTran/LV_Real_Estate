@@ -32,7 +32,7 @@ The main goal for investors is to grow their money over the long term. While the
 
 <img src="./uncleaned_data.png">
 
-<img src="./cleaned_data.png">
+<img src="./clean_data.png">
 
 <iframe src='./PCT-Growth.html' width=600 height=400 frameBorder=0></iframe>
 
