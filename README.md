@@ -32,17 +32,32 @@ The main goal for investors is to grow their money over the long term. While the
 
 <img src="./uncleaned_data.png" width=1000 height=400>
 
+### Data Cleaning / Preprocessing
+
 <img src="./clean_data.png" width=700 heigh=400>
+
+### Visualization - Capital Growth
 
 <iframe src='./PCT-Growth.html' width=1000 height=600 frameBorder=0></iframe>
 
+### Visualization - Annual Revenue from January 2015 - September 2022
 
 <iframe src='./Revenue.html' width=1000 height=600 frameBorder=0></iframe>
 
+### Visualization - Repairs and Maintenance Compared to Revenue from January 2015 - September 2022
+
 <iframe src='./Repairs and Maintenance Rev.html' width=1000 height=600 frameBorder=0></iframe>
+
+### Visualization - Net Operating Income from January 2015 - September 2022
 
 <iframe src='./NOI.html' width=1000 height=600 frameBorder=0></iframe>
 
+### Visualization - Cap Rate from January 2015 - September 2022
+
 <iframe src='./CapRate.html' width=1000 height=600 frameBorder=0></iframe>
 
+### Visualization - Cash on Cash Return from January 2015 - September 2022
+
 <iframe src='./COC.html' width=1000 height=600 frameBorder=0></iframe>
+
+### Conclusion
