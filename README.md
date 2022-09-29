@@ -25,7 +25,7 @@ The main goal for investors is to grow their money over the long term. While the
 #### How does a move out affect profit?
  - When the home is relisted, it is pushed up to market rent giving more income
  - Each move out requires cleaning and repairing the home for a new tenant
- - More expenses incurr because the time it takes to repair home and get it rerented out takes about a month
+ - More expenses incur because the time it takes to repair home and get it rerented out takes about a month
  - Also have to pay administrative fees to property management to find new tenants
  - New tenants usually have a lot of maintenance request the first 6 months of tenancy because they find broken things that the old tenant lived with
 
@@ -101,11 +101,10 @@ We can see that the returns of Bright Leaf has done significantly better than Fo
  - Best to raise rent closer to market value at renewal while still staying below to give tenant incentive to stay
      - This allows us to bring in more revenue while not having the turnover eat up a lot of the extra revenue gained from the higher amount of maintenance request
  - Having back to back turnover will cost more than keeping the rent lower and having the tenant stay longer.
- - Bright Leaf outperformed Fort Pike because it does not account for the extra $600 that it could get if it was at market rent
+ - Bright Leaf outperformed Fort Pike and it also does not account for the extra $600 that it could get if it was at market rent
 
 
 ### Conclusion
 
-Does not make sense for turnover often because maintenance are often high the first year of move in. It is better to raise rent each year close to market rent but still below to give the tenant an incentive to stay.
+My goal for this analysis was to understand the best way to maximize revenue while minimizing the amount of maintenance request. The two factors that directly affect that is the rent charged and turnover. By having rent too high at renewal, it can cause the tenants to leave and a turnover to occur. With each turnover, there are many expenses that come with it on both the administrative and maintenance side. Turnover contributes to a high amount of maintenance request for the first year that the tenants live in the home and there are fees charged to find a new tenants for the home. The best way to bypass the turnover to save on the maintenance and administrative expenses is by keeping the rent close to market rent but below enough where it gives the tenant an incentive to stay. This is a win-win for both sides because the turnover will eat up a large amount or over the amount of rent gained of being able to rerent at market rent
 
-While the Bright Leaf property has opportunity to significantly outperform the Fort Pike property if the rents were raised closer to 
