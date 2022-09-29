@@ -47,43 +47,61 @@ In real estate investing, there are two types of ways to invest: cash flow or ap
 
 In this case, it is important to account for appreciation when looking at how properties fare against each other because it is growth on the money invested that would be received when selling the property. It also shows how the areas the properties are in have changed because appreciation comes from mostly external factors such as the neighborhood becoming nicer or more people are moving to the area.
 
+While capital growth is an important metric to investors, it doesn't show the full picture of the investment because it is only realized once sold. what the figure might be now, might not be in the future because appreciation is never guaranteed.
+
+
 <iframe src='./PCT-Growth.html' width=1000 height=600 frameBorder=0></iframe>
+
+While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show the full picture of the investment because it is only realized once sold. Real estate is a long term investment, so that figure could go down because appreciation is never guaranteed but over the long term, we expect it to appreciate further.
 
 ### Visualization - Annual Revenue from January 2015 - September 2022
 
-Annual revenue is an important part of the investment because it isn't investing if there is no return on the money. Annual revenue comes from rent
+The combat the problem with appreciation not being guaranteed, there is a second part to real estate investing. That is renting out the home. This provides a more secure way to generate some revenue to cover the expenses and bring some return to the money that was invested.
 
 <iframe src='./Revenue.html' width=1000 height=600 frameBorder=0></iframe>
 
+Fort pike has outperformed Bright Leaf in providing a higher rent amount every year in this period, but this doesn't take into the account the expenses ocurred by the properties and external factors such as turn over. It is desireable to have a higher rent amount, but to minimize the expenses,
+
 ### Visualization - Repairs and Maintenance Compared to Revenue from January 2015 - September 2022
 
-Repairs and Maintenance is important because it takes away from the profit
+Repairs and Maintenance is important because these are expenses that need to be paid and take away from the profit at the end of the year. If this is not accounted for, it can hide how a property is actually performing.
 
 <iframe src='./Repairs and Maintenance Rev.html' width=1000 height=600 frameBorder=0></iframe>
 
+We can see that for most years, bright leaf has a relatively low dollar amount of maintenance request. Fort Pike has the highest maintenance dollar amount on years where turnover happens. We can see in 2018 it is high but the year after is low. We can also see that turnover causing a higher $ amount of maintenance request in 2021 because that was the year when a one year tenant moved out and a new tenant moved in. The highest amount of maintenance request tend to be in the first year that a renter has lived there. 2022 is kind of an outlier because a renter in the first year is living there, but the ac condenser went out due to a previous tenant not taking care of changing air filters and damaging the system. This accounted for 5.5k, so the $ amount of maintenance is still elevated but lower than 2021. 
+
 ### Visualization - Net Operating Income from January 2015 - September 2022
 
+Net operating income (NOI) is an important metric because it factors in expenses which is a big part of maintaining a property. NOI is an important indicator of profitability and accounts for other factors such as turnover that revenue can not account for.
+
 <iframe src='./NOI.html' width=1000 height=600 frameBorder=0></iframe>
+
+While Fort Pike consistently had a higher revenue, we can see that it was not the case for the years a turnover happened. In 2018 and 2020, we can see that the NOI was much closer as compared to when there was no turnover such as 2015-2017. In 2021, we can even see that Bright Leaf had a higher NOI than Fort Pike even though Fort Pike has a higher annual revenue.
 
 ### Visualization - Cap Rate from January 2015 - September 2022
 
 Capitalization rate is an important metric because it describes the risk of a property. The lower cap rates tend to mean a lower risk investment, but it comes with not as high returns because it is a more desireable area with higher home values. While the home values grow higher, rent follows but at a slower pace because renters tend to be more limited in income compared to someone buying a home in the area. The higher cap rates correspond to a higher risk investment, but the higher risk comes with higher return. Like all investments, this follows the principles of "high risk, high reward."
 
-The reason why I chose to use compare the cap rate with operating expenses and without is because the Fort Pike property has higher turnover which means that it has more maintenance request. To get a better comparison of the properties if there wasn't a difference in turnover.
-
+The reason why I chose to compare the cap rate with operating expenses and without is because the Fort Pike property has higher turnover which means that it has more maintenance request. Looking at the cap rate without operating expenses provides a better idea of how the property compares when there is not high turnover in the Fort Pike property.
 
 <iframe src='./CapRate.html' width=1000 height=600 frameBorder=0></iframe>
 
+As we can see from the visual, Bright Leaf tends to do better when account for operating expenses, but it is more even when only looking at revenue. This shows that the high turnover is hurting the properties potential because the higher expenses incurred from each turnover.
+
 ### Visualization - Cash on Cash Return from January 2015 - September 2022
 
-Looking for return on money each year. S&P500 averages 7% as a baseline
+Cash on Cash return is a term mostly used for real estate but it is similar to looking how much a stock has grown each year relative to how much you put in. This is a good metric to have to be able to compare it other investments and see if the money could be used better else where. For example, the S&P500 has a annual average return of around 9.87% from 2001 through 2021, so we can compare the cash on cash return to that and see how the property is performing.
 
 <iframe src='./COC.html' width=1000 height=600 frameBorder=0></iframe>
 
-### Takeaways
+We can see that the returns of Bright Leaf has done significantly better than Fort Pike. One thing that we can notice from this is that the years of turnover for Fort Pike seem to be hurting the returns even with the higher rent. When comparing Fort Pike on the years of turnover to the years of no turnover, the years of no turnover performed better than the years with no turnover.
 
- - While Bright Leaf 
- - Cap rate does not account for the fact that the Bright Leaf property's rent could be raised about $600 to market rent
+### Takeaways
+ - High turnover leads to more $ amount spent on maintenance
+ - Best to raise rent closer to market value at renewal while still staying below to give tenant incentive to stay
+     - This allows us to bring in more revenue while not having the turnover eat up a lot of the extra revenue gained from the higher amount of maintenance request
+ - Having back to back turnover will cost more than keeping the rent lower and having the tenant stay longer.
+ - Bright Leaf outperformed Fort Pike because it does not account for the extra $600 that it could get if it was at market rent
 
 
 ### Conclusion
