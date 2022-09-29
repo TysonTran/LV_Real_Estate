@@ -27,7 +27,7 @@ The main goal for investors is to grow their money over the long term. While the
  - Each move out requires cleaning and repairing the home for a new tenant
  - More expenses incur because the time it takes to repair home and get it rerented out takes about a month
  - Also have to pay administrative fees to property management to find new tenants
- - New tenants usually have a lot of maintenance request the first 6 months of tenancy because they find broken things that the old tenant lived with
+ - New tenants usually have a lot of maintenance request the first year of tenancy because they find broken things that the old tenant lived with
 
 ### Overview of Data
 
