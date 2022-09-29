@@ -39,6 +39,8 @@ The data consist of 651 transactions relating to the business portfolio. Althoug
 
 To get the data into a form that is useable to perform an analysis on, we must make sure the final form of the data specifies which property the transaction is relating to, what the transaction was for, the amount of the transaction, and the year the transaction occurred. We are able to get an idea of which transaction is related to which property by looking at the memo and label the transaction based off of the information given in the memo.
 
+In the preprocessing step, I also looked at maintenance repairs that were greater than 3k because these usually are capital expenditures. In this case, there was one and it was for an ac condenser. I removed this item because it would skew the results and these are items that have a estimated lifespan that should be saved for over its life.
+
 <img src="./clean_data.png" width=700 heigh=400>
 
 ### Visualization - Capital Growth
@@ -47,20 +49,17 @@ In real estate investing, there are two types of ways to invest: cash flow or ap
 
 In this case, it is important to account for appreciation when looking at how properties fare against each other because it is growth on the money invested that would be received when selling the property. It also shows how the areas the properties are in have changed because appreciation comes from mostly external factors such as the neighborhood becoming nicer or more people are moving to the area.
 
-While capital growth is an important metric to investors, it doesn't show the full picture of the investment because it is only realized once sold. what the figure might be now, might not be in the future because appreciation is never guaranteed.
-
-
 <iframe src='./PCT-Growth.html' width=1000 height=600 frameBorder=0></iframe>
 
-While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show the full picture of the investment because it is only realized once sold. Real estate is a long term investment, so that figure could go down because appreciation is never guaranteed but over the long term, we expect it to appreciate further.
+While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show the full picture of the investment because it is only realized once sold. Real estate is a long term investment, so that figure could go down because appreciation is never guaranteed but over the long term, we expect it to appreciate further. This does hint towards Bright Leaf being a better investment in having more rent growth and more buyers in the area.
 
 ### Visualization - Annual Revenue from January 2015 - September 2022
 
-The combat the problem with appreciation not being guaranteed, there is a second part to real estate investing. That is renting out the home. This provides a more secure way to generate some revenue to cover the expenses and bring some return to the money that was invested.
+To combat the problem with appreciation not being guaranteed, there is a second part to real estate investing. That is renting out the home. This provides a more secure way to generate some revenue to cover the expenses and bring some return to the money that was invested.
 
 <iframe src='./Revenue.html' width=1000 height=600 frameBorder=0></iframe>
 
-Fort pike has outperformed Bright Leaf in providing a higher rent amount every year in this period, but this doesn't take into the account the expenses ocurred by the properties and external factors such as turn over. It is desireable to have a higher rent amount, but to minimize the expenses,
+Fort pike has outperformed Bright Leaf in consistently providing a higher revenue. A higher revenue is good because it gives more room to remain profitable even when capital expenditures arise. Although the revenue of Fort Pike looks good, we are not sure how the high turnover rate will affect the profit because there are more repairs and maintenance request done.
 
 ### Visualization - Repairs and Maintenance Compared to Revenue from January 2015 - September 2022
 
@@ -68,7 +67,7 @@ Repairs and Maintenance is important because these are expenses that need to be 
 
 <iframe src='./Repairs and Maintenance Rev.html' width=1000 height=600 frameBorder=0></iframe>
 
-We can see that for most years, bright leaf has a relatively low dollar amount of maintenance request. Fort Pike has the highest maintenance dollar amount on years where turnover happens. We can see in 2018 it is high but the year after is low. We can also see that turnover causing a higher $ amount of maintenance request in 2021 because that was the year when a one year tenant moved out and a new tenant moved in. The highest amount of maintenance request tend to be in the first year that a renter has lived there. 2022 is kind of an outlier because a renter in the first year is living there, but the ac condenser went out due to a previous tenant not taking care of changing air filters and damaging the system. This accounted for 5.5k, so the $ amount of maintenance is still elevated but lower than 2021. 
+We can see that for most years, Bright Leaf has a relatively low dollar amount of maintenance request. Fort Pike has the highest maintenance dollar amount on years where turnover happens. We can see in 2018 it is high but the year after is low. We can also see that turnover causes a higher $ amount of maintenance request in 2021 because that was the year when a tenant who was living there on their first year moved out and a new tenant moved in. The highest amount of maintenance request tend to be in the first year that a renter has lived there. 
 
 ### Visualization - Net Operating Income from January 2015 - September 2022
 
@@ -86,25 +85,25 @@ The reason why I chose to compare the cap rate with operating expenses and witho
 
 <iframe src='./CapRate.html' width=1000 height=600 frameBorder=0></iframe>
 
-As we can see from the visual, Bright Leaf tends to do better when account for operating expenses, but it is more even when only looking at revenue. This shows that the high turnover is hurting the properties potential because the higher expenses incurred from each turnover.
+As we can see from the visual, Bright Leaf tends to do better when accounting for operating expenses, but is more comparable to each other when only looking at revenue. This shows that a high turnover rate hurts investment properties potential because the higher expenses incurred from each turnover.
 
 ### Visualization - Cash on Cash Return from January 2015 - September 2022
 
-Cash on Cash return is a term mostly used for real estate but it is similar to looking how much a stock has grown each year relative to how much you put in. This is a good metric to have to be able to compare it other investments and see if the money could be used better else where. For example, the S&P500 has a annual average return of around 9.87% from 2001 through 2021, so we can compare the cash on cash return to that and see how the property is performing.
+Cash on Cash return is a term mostly used for real estate, but it is similar to looking at how much a stock has grown each year relative to how much you put in. This is a good metric to have to be able to compare it to other investments and see if the money could be used better elsewhere. For example, the S&P500 has a annual average return of around 9.87% from 2001 through 2021, so we can compare the cash on cash return to that and see how the property is performing.
 
 <iframe src='./COC.html' width=1000 height=600 frameBorder=0></iframe>
 
-We can see that the returns of Bright Leaf has done significantly better than Fort Pike. One thing that we can notice from this is that the years of turnover for Fort Pike seem to be hurting the returns even with the higher rent. When comparing Fort Pike on the years of turnover to the years of no turnover, the years of no turnover performed better than the years with no turnover.
+We can see that the returns of Bright Leaf has done significantly better than Fort Pike. One thing that we can notice from this is that the years of turnover for Fort Pike seem to be hurting the returns even with the higher rent. When comparing Fort Pike on the years of turnover to the years of no turnover, the years of no turnover performed better than the years with turnover.
 
 ### Takeaways
  - High turnover leads to more $ amount spent on maintenance
- - Best to raise rent closer to market value at renewal while still staying below to give tenant incentive to stay
+ - Best to raise rent closer to market value at renewal while still staying below to give the tenant an incentive to stay
      - This allows us to bring in more revenue while not having the turnover eat up a lot of the extra revenue gained from the higher amount of maintenance request
  - Having back to back turnover will cost more than keeping the rent lower and having the tenant stay longer.
- - Bright Leaf outperformed Fort Pike and it also does not account for the extra $600 that it could get if it was at market rent
+ - Bright Leaf outperformed Fort Pike even though the rent is below market rate
 
 
 ### Conclusion
 
-My goal for this analysis was to understand the best way to maximize revenue while minimizing the amount of maintenance request. The two factors that directly affect that is the rent charged and turnover. By having rent too high at renewal, it can cause the tenants to leave and a turnover to occur. With each turnover, there are many expenses that come with it on both the administrative and maintenance side. Turnover contributes to a high amount of maintenance request for the first year that the tenants live in the home and there are fees charged to find a new tenants for the home. The best way to bypass the turnover to save on the maintenance and administrative expenses is by keeping the rent close to market rent but below enough where it gives the tenant an incentive to stay. This is a win-win for both sides because the turnover will eat up a large amount or over the amount of rent gained of being able to rerent at market rent
+My goal for this analysis was to understand the best way to maximize revenue while minimizing the amount of maintenance request. The two factors that directly affect that is the rent charged and turnover. By having rent too high at renewal, it can cause the tenants to leave and a turnover to occur. With each turnover, there are many expenses that come with it on both the administrative and maintenance side. Turnover contributes to a high amount of maintenance request for the first year that the tenants live in the home and there are fees charged to find a new tenants for the home. The best way to bypass the turnover to save on the maintenance and administrative expenses is by keeping the rent close to market rent but below enough where it gives the tenant an incentive to stay. This is a win-win for both sides because the turnover will eat up a large amount of the rent gained of being able to rerent at market rent
 
