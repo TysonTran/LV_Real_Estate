@@ -1,7 +1,7 @@
 ,Type,Date,Num,Name,Memo,Clr,Split,Amount,Balance
 CHASE,,,,,,,,,
 ,Check,12/17/14,,FRANCHISE TAX BOARD,2014 chase chk #444,X,LLC Tax,-800,-800
-,Deposit,12/30/14,,"GoldenWest Management, Inc",1828 BRIGHT LEAF 2014,X,Rental Income,12540,11740
+,Deposit,12/30/14,,"GoldenWest Management, Inc",BRIGHT LEAF 2014,X,Rental Income,12540,11740
 ,Check,12/30/14,,"GoldenWest Management, Inc",BRIGHT LEAF 2014,X,Management Fees,-900,10840
 ,Check,12/30/14,,State Farm Fire and Casualty Company,BRIGHT LEAF 2014,X,Insurance Expense,-532,10308
 ,Check,12/30/14,,ELDORADO THIRD CA,BRIGHT LEAF 2014,X,Community Association Fee,-192,10116
@@ -16,8 +16,8 @@ CHASE,,,,,,,,,
 ,Check,1/1/15,,"GoldenWest Management, Inc",1/2015 Bright Leaf,X,Management Fees,-75,6082.03
 ,Deposit,1/1/15,,"GoldenWest Management, Inc",1/2015 Fort Pike,X,Rental Income,1550,7632.03
 ,Check,1/1/15,,"GoldenWest Management, Inc",1/2015 Fort Pike,X,Management Fees,-100,7532.03
-,Check,1/5/15,,State Farm Fire and Casualty Company,1828 Bright Leaf 1/28/2015 to 1/28/2016,X,Insurance Expense,-536,6996.03
-,Check,1/5/15,,State Farm Fire and Casualty Company,10001 Fort Pike 2/11/2015 to 2/11/2016,X,Insurance Expense,-669,6327.03
+,Check,1/5/15,,State Farm Fire and Casualty Company,Bright Leaf 1/28/2015 to 1/28/2016,X,Insurance Expense,-536,6996.03
+,Check,1/5/15,,State Farm Fire and Casualty Company,Fort Pike 2/11/2015 to 2/11/2016,X,Insurance Expense,-669,6327.03
 ,Check,2/6/15,,"GoldenWest Management, Inc",2/2015 Fort Pike,X,Management Fees,-100,6108.49
 ,Deposit,2/6/15,,"GoldenWest Management, Inc",2/2015 Fort Pike,X,Rental Income,1550,7658.49
 ,Check,2/8/15,,ELDORADO THIRD CA,"Bright Leaf 1,2,3/2015 BOA check",X,Community Association Fee,-64,7594.49
@@ -116,14 +116,14 @@ CHASE,,,,,,,,,
 ,Check,6/8/16,,AMERICAN HOME MECHANICAL LLC.,AIR CONDITION CHECK UP fort pike,X,Repairs and Maintenance,-160,8437.58
 ,Check,6/14/16,,MOUNTAINS EDGE MASTER ASSOCIATION,7/2016 to 9/2016 boa chk #1543 Fort Pike,X,Community Association Fee,-192,8245.58
 ,Check,6/15/16,,ELDORADO THIRD CA,7/2016 boa chk #1542 Bright Leaf,X,Community Association Fee,-63,8182.58
-,Check,6/30/16,,AMERICAN HOME MECHANICAL LLC.,10001 fort pike HVAC Service call,X,Repairs and Maintenance,-68,8094.58
+,Check,6/30/16,,AMERICAN HOME MECHANICAL LLC.,fort pike HVAC Service call,X,Repairs and Maintenance,-68,8094.58
 ,Deposit,7/5/16,,"GoldenWest Management, Inc",7/1/2016 Fort Pike,X,Rental Income,1550,9644.58
 ,Deposit,7/5/16,,"GoldenWest Management, Inc",7/1/2016 Bright Leaf,X,Rental Income,1095,10739.58
 ,Check,7/5/16,,"GoldenWest Management, Inc",7/1/2016 Bright Leaf,X,Management Fees,-85,10654.58
 ,Check,7/5/16,,"GoldenWest Management, Inc",7/1/2016 Fort Pike,X,Management Fees,-115,10539.58
 ,Check,7/11/16,,Clark County Water Reclamation,7/2016 to 7/2017 paid vaty spark credit card Fort Pike,X,Utilities,-225.09,10314.49
-,Check,7/25/16,,Clark County Treasures,1828 bright leaf Paid 2016 BOA chk#1548,X,Property Tax,-1201.96,9112.53
-,Check,7/25/16,,Clark County Treasures,10001 fort pike Paid 2016 BOA chk#1547,X,Property Tax,-1964.99,7147.54
+,Check,7/25/16,,Clark County Treasures,bright leaf Paid 2016 BOA chk#1548,X,Property Tax,-1201.96,9112.53
+,Check,7/25/16,,Clark County Treasures,fort pike Paid 2016 BOA chk#1547,X,Property Tax,-1964.99,7147.54
 ,Check,8/6/16,,"GoldenWest Management, Inc",8/1/2016 Bright Leaf,X,Management Fees,-85,7062.54
 ,Check,8/6/16,,"GoldenWest Management, Inc",8/1/2016 Fort Pike,X,Management Fees,-115,6947.54
 ,Deposit,8/6/16,,"GoldenWest Management, Inc",8/1/2016 Bright Leaf,X,Rental Income,1095,8042.54
@@ -476,9 +476,9 @@ CHASE,,,,,,,,,
 ,Deposit,12/5/20,,"GoldenWest Management, Inc",Fort Pike,X,Rental Income,35,15954.24
 ,Deposit,12/5/20,,"GoldenWest Management, Inc",Fort Pike,X,Rental Income,60,16014.24
 ,Check,12/5/20,,"GoldenWest Management, Inc",Fort Pike,X,Management Fees,-145,15869.24
-,Check,12/6/20,,Pablo Montiel,1828 Bright Leaf painting facial broad,X,Repairs and Maintenance,-800,15069.24
-,Check,12/28/20,,State Farm Fire and Casualty Company,1828 Bright Leaf,X,Insurance Expense,-564,14505.24
-,Check,12/29/20,,State Farm Fire and Casualty Company,10001 Fort Pike,X,Insurance Expense,-699,13806.24
+,Check,12/6/20,,Pablo Montiel,Bright Leaf painting facial broad,X,Repairs and Maintenance,-800,15069.24
+,Check,12/28/20,,State Farm Fire and Casualty Company,Bright Leaf,X,Insurance Expense,-564,14505.24
+,Check,12/29/20,,State Farm Fire and Casualty Company,Fort Pike,X,Insurance Expense,-699,13806.24
 ,Check,12/29/20,,MOUNTAINS EDGE MASTER ASSOCIATION,chk #545 Fort Pike,X,Community Association Fee,-192,13614.24
 ,Check,1/12/21,,REPUBLIC SERVICE,Fort Pike,X,Utilities,-46.65,15566.35
 ,Deposit,1/16/21,,"GoldenWest Management, Inc",Bright Leaf,X,Rental Income,1220,16786.35
@@ -591,8 +591,8 @@ CHASE,,,,,,,,,
 ,Check,12/3/21,,Wiley Service,300+35 Fort Pike,X,Repairs and Maintenance,-335,11012.63
 ,Check,12/3/21,,"GoldenWest Management, Inc",Zillow Group Ad Fee Fort Pike,X,Management Fees,-12,11000.63
 ,Check,12/12/21,,ELDORADO THIRD CA,chase chk #593 Bright Leaf,X,Community Association Fee,-69,10931.63
-,Check,12/14/21,,State Farm Fire and Casualty Company,1828 bright leaf,X,Insurance Expense,-613,10318.63
-,Check,12/27/21,,State Farm Fire and Casualty Company,10001 fort pike,X,Insurance Expense,-783,9535.63
+,Check,12/14/21,,State Farm Fire and Casualty Company,bright leaf,X,Insurance Expense,-613,10318.63
+,Check,12/27/21,,State Farm Fire and Casualty Company,fort pike,X,Insurance Expense,-783,9535.63
 ,Check,12/31/21,,MOUNTAINS EDGE MASTER ASSOCIATION,chase chk #594 Fort Pike,X,Community Association Fee,-192,9343.63
 ,Deposit,1/3/22,,"GoldenWest Management, Inc",Deposit Bright Leaf,X,Rental Income,1280,12894.82
 ,Deposit,1/3/22,,"GoldenWest Management, Inc",Deposit Fort Pike,X,Rental Income,2149,15043.82

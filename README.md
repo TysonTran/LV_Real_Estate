@@ -33,7 +33,7 @@ The main goal for investors is to grow their money over the long term. While the
 
 The data consist of 651 transactions relating to the business portfolio. Although most expenses are relating to a specific property, there are a few expenses that are a expense of the business such as the LLC tax. This data is exported from Quickbooks which provides accurate expenses for the properties and the business from January 2015 - September 2022. The data consist of 10 columns, while a few are unnecessary, it provides data of when the transaction occurred, if the transaction was an expense or income, where the money came from or is going, what the transaction is relating to, and how much was sent.
 
-<img src="./uncleaned_data.png" width=1000 height=400>
+<img src="./visuals/uncleaned_data.png" width=1000 height=400>
 
 ### Data Cleaning / Preprocessing
 
@@ -41,7 +41,7 @@ To get the data into a form that is useable to perform an analysis on, we must m
 
 In the preprocessing step, I also looked at maintenance repairs that were greater than 3k because these usually are capital expenditures. In this case, there was one and it was for an ac condenser. I removed this item because it would skew the results and these are items that have a estimated lifespan that should be saved for over its life.
 
-<img src="./clean_data.png" width=700 heigh=400>
+<img src="./visuals/clean_data.png" width=700 heigh=400>
 
 ### Visualization - Capital Growth
 
@@ -49,7 +49,7 @@ In real estate investing, there are two types of ways to invest: cash flow or ap
 
 In this case, it is important to account for appreciation when looking at how properties fare against each other because it is growth on the money invested that would be received when selling the property. It also shows how the areas the properties are in have changed because appreciation comes from mostly external factors such as the neighborhood becoming nicer or more people are moving to the area.
 
-<iframe src='./PCT-Growth.html' width=1000 height=600 frameBorder=0></iframe>
+<iframe src='./visuals/PCT-Growth.html' width=1000 height=600 frameBorder=0></iframe>
 
 While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show the full picture of the investment because it is only realized once sold. Real estate is a long term investment, so that figure could go down because appreciation is never guaranteed but over the long term, we expect it to appreciate further. This does hint towards Bright Leaf being a better investment in having more rent growth and more buyers in the area.
 
@@ -57,7 +57,7 @@ While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show 
 
 To combat the problem with appreciation not being guaranteed, there is a second part to real estate investing. That is renting out the home. This provides a more secure way to generate some revenue to cover the expenses and bring some return to the money that was invested.
 
-<iframe src='./Revenue.html' width=1000 height=600 frameBorder=0></iframe>
+<iframe src='./visuals/Revenue.html' width=1000 height=600 frameBorder=0></iframe>
 
 Fort pike has outperformed Bright Leaf in consistently providing a higher revenue. A higher revenue is good because it gives more room to remain profitable even when capital expenditures arise. Although the revenue of Fort Pike looks good, we are not sure how the high turnover rate will affect the profit because there are more repairs and maintenance request done.
 
@@ -65,7 +65,7 @@ Fort pike has outperformed Bright Leaf in consistently providing a higher revenu
 
 Repairs and Maintenance is important because these are expenses that need to be paid and take away from the profit at the end of the year. If this is not accounted for, it can hide how a property is actually performing.
 
-<iframe src='./Repairs and Maintenance Rev.html' width=1000 height=600 frameBorder=0></iframe>
+<iframe src='./visuals/Repairs and Maintenance Rev.html' width=1000 height=600 frameBorder=0></iframe>
 
 We can see that for most years, Bright Leaf has a relatively low dollar amount of maintenance request. Fort Pike has the highest maintenance dollar amount on years where turnover happens. We can see in 2018 it is high but the year after is low. We can also see that turnover causes a higher $ amount of maintenance request in 2021 because that was the year when a tenant who was living there on their first year moved out and a new tenant moved in. The highest amount of maintenance request tend to be in the first year that a renter has lived there. 
 
@@ -73,7 +73,7 @@ We can see that for most years, Bright Leaf has a relatively low dollar amount o
 
 Net operating income (NOI) is an important metric because it factors in expenses which is a big part of maintaining a property. NOI is an important indicator of profitability and accounts for other factors such as turnover that revenue can not account for.
 
-<iframe src='./NOI.html' width=1000 height=600 frameBorder=0></iframe>
+<iframe src='./visuals/NOI.html' width=1000 height=600 frameBorder=0></iframe>
 
 While Fort Pike consistently had a higher revenue, we can see that it was not the case for the years a turnover happened. In 2018 and 2020, we can see that the NOI was much closer as compared to when there was no turnover such as 2015-2017. In 2021, we can even see that Bright Leaf had a higher NOI than Fort Pike even though Fort Pike has a higher annual revenue.
 
@@ -83,7 +83,7 @@ Capitalization rate is an important metric because it describes the risk of a pr
 
 The reason why I chose to compare the cap rate with operating expenses and without is because the Fort Pike property has higher turnover which means that it has more maintenance request. Looking at the cap rate without operating expenses provides a better idea of how the property compares when there is not high turnover in the Fort Pike property.
 
-<iframe src='./CapRate.html' width=1000 height=600 frameBorder=0></iframe>
+<iframe src='./visuals/CapRate.html' width=1000 height=600 frameBorder=0></iframe>
 
 As we can see from the visual, Bright Leaf tends to do better when accounting for operating expenses, but is more comparable to each other when only looking at revenue. This shows that a high turnover rate hurts investment properties potential because the higher expenses incurred from each turnover.
 
@@ -91,7 +91,7 @@ As we can see from the visual, Bright Leaf tends to do better when accounting fo
 
 Cash on Cash return is a term mostly used for real estate, but it is similar to looking at how much a stock has grown each year relative to how much you put in. This is a good metric to have to be able to compare it to other investments and see if the money could be used better elsewhere. For example, the S&P500 has a annual average return of around 9.87% from 2001 through 2021, so we can compare the cash on cash return to that and see how the property is performing.
 
-<iframe src='./COC.html' width=1000 height=600 frameBorder=0></iframe>
+<iframe src='./visuals/COC.html' width=1000 height=600 frameBorder=0></iframe>
 
 We can see that the returns of Bright Leaf has done significantly better than Fort Pike. One thing that we can notice from this is that the years of turnover for Fort Pike seem to be hurting the returns even with the higher rent. When comparing Fort Pike on the years of turnover to the years of no turnover, the years of no turnover performed better than the years with turnover.
 
