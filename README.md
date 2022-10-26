@@ -1,6 +1,10 @@
 # Las Vegas Real Estate Portfolio Analysis
 
-The main goal for investors is to grow their money over the long term. While the goal is to pick the best investments, there will always be some that out perform others. The main goal of this analysis is to perform a comparative analysis of two investment properties located in Las Vegas, Nevada and understand how they fare against each other. Also to understand how turnover affects a real estate investment in terms of revenue and expenses.
+
+## Research Question: Is there a relationship between property turnover and profit from 2015-2021?
+
+### Inspiration
+The inspiration for the project originates from the dilemma of wanting the tenants to be happy and wanting to make more money as a business. This is a hard choice for most and most landlords tend to choose one or the other causing them to loose on lots of money with low rents or faced with high expenses through high turnover. The goal of this analysis is to see if there is a relationship and to find a inbetween that would make tenants stay long while landlords still make more money.
 
 
 ### Facts:
@@ -43,17 +47,8 @@ In the preprocessing step, I also looked at maintenance repairs that were greate
 
 <img src="./visuals/clean_data.png" width=700 heigh=400>
 
-### Visualization - Capital Growth
 
-In real estate investing, there are two types of ways to invest: cash flow or appreciation. Cash flow investing allows you to have the extra cash right away after using the rent money to pay the mortgage and expenses. Appreciation investing is a long game that is less guaranteed, but many times out performs cash flow investing. The types of investing depends on where the properties are located because in many places like California, it is very difficult to cash flow a property because of the high property values.
-
-In this case, it is important to account for appreciation when looking at how properties fare against each other because it is growth on the money invested that would be received when selling the property. It also shows how the areas the properties are in have changed because appreciation comes from mostly external factors such as the neighborhood becoming nicer or more people are moving to the area.
-
-<iframe src='./visuals/PCT-Growth.html' width=1000 height=600 frameBorder=0></iframe>
-
-While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show the full picture of the investment because it is only realized once sold. Real estate is a long term investment, so that figure could go down because appreciation is never guaranteed but over the long term, we expect it to appreciate further. This does hint towards Bright Leaf being a better investment in having more rent growth and more buyers in the area.
-
-### Visualization - Annual Revenue from January 2015 - September 2022
+### Visualization - Annual Revenue from 2015 - 2021 ****
 
 To combat the problem with appreciation not being guaranteed, there is a second part to real estate investing. That is renting out the home. This provides a more secure way to generate some revenue to cover the expenses and bring some return to the money that was invested.
 
@@ -61,7 +56,37 @@ To combat the problem with appreciation not being guaranteed, there is a second 
 
 Fort pike has outperformed Bright Leaf in consistently providing a higher revenue. A higher revenue is good because it gives more room to remain profitable even when capital expenditures arise. Although the revenue of Fort Pike looks good, we are not sure how the high turnover rate will affect the profit because there are more repairs and maintenance request done.
 
-### Visualization - Repairs and Maintenance Compared to Revenue from January 2015 - September 2022
+### Visualization - Repair Cost Distribution from 2015 - 2021
+
+In real estate investing, there are two types of ways to invest: cash flow or appreciation. Cash flow investing allows you to have the extra cash right away after using the rent money to pay the mortgage and expenses. Appreciation investing is a long game that is less guaranteed, but many times out performs cash flow investing. The types of investing depends on where the properties are located because in many places like California, it is very difficult to cash flow a property because of the high property values.
+
+In this case, it is important to account for appreciation when looking at how properties fare against each other because it is growth on the money invested that would be received when selling the property. It also shows how the areas the properties are in have changed because appreciation comes from mostly external factors such as the neighborhood becoming nicer or more people are moving to the area.
+
+<iframe src='./visuals/repair_dist.html' width=1000 height=600 frameBorder=0></iframe>
+
+While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show the full picture of the investment because it is only realized once sold. Real estate is a long term investment, so that figure could go down because appreciation is never guaranteed but over the long term, we expect it to appreciate further. This does hint towards Bright Leaf being a better investment in having more rent growth and more buyers in the area.
+
+### Visualization - Number of Maintenance Request from 2015 - 2021
+
+In real estate investing, there are two types of ways to invest: cash flow or appreciation. Cash flow investing allows you to have the extra cash right away after using the rent money to pay the mortgage and expenses. Appreciation investing is a long game that is less guaranteed, but many times out performs cash flow investing. The types of investing depends on where the properties are located because in many places like California, it is very difficult to cash flow a property because of the high property values.
+
+In this case, it is important to account for appreciation when looking at how properties fare against each other because it is growth on the money invested that would be received when selling the property. It also shows how the areas the properties are in have changed because appreciation comes from mostly external factors such as the neighborhood becoming nicer or more people are moving to the area.
+
+<iframe src='./visuals/number of maintenance request.html' width=1000 height=600 frameBorder=0></iframe>
+
+While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show the full picture of the investment because it is only realized once sold. Real estate is a long term investment, so that figure could go down because appreciation is never guaranteed but over the long term, we expect it to appreciate further. This does hint towards Bright Leaf being a better investment in having more rent growth and more buyers in the area.
+
+### Visualization - Cost of Maintenance Request per Year from 2015 - 2021
+
+In real estate investing, there are two types of ways to invest: cash flow or appreciation. Cash flow investing allows you to have the extra cash right away after using the rent money to pay the mortgage and expenses. Appreciation investing is a long game that is less guaranteed, but many times out performs cash flow investing. The types of investing depends on where the properties are located because in many places like California, it is very difficult to cash flow a property because of the high property values.
+
+In this case, it is important to account for appreciation when looking at how properties fare against each other because it is growth on the money invested that would be received when selling the property. It also shows how the areas the properties are in have changed because appreciation comes from mostly external factors such as the neighborhood becoming nicer or more people are moving to the area.
+
+<iframe src='./visuals/maintenance cost by year.html' width=1000 height=600 frameBorder=0></iframe>
+
+While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show the full picture of the investment because it is only realized once sold. Real estate is a long term investment, so that figure could go down because appreciation is never guaranteed but over the long term, we expect it to appreciate further. This does hint towards Bright Leaf being a better investment in having more rent growth and more buyers in the area.
+
+### Visualization - Repairs and Maintenance Compared to Revenue from 2015 - 2021 ****
 
 Repairs and Maintenance is important because these are expenses that need to be paid and take away from the profit at the end of the year. If this is not accounted for, it can hide how a property is actually performing.
 
@@ -69,7 +94,7 @@ Repairs and Maintenance is important because these are expenses that need to be 
 
 We can see that for most years, Bright Leaf has a relatively low dollar amount of maintenance request. Fort Pike has the highest maintenance dollar amount on years where turnover happens. We can see in 2018 it is high but the year after is low. We can also see that turnover causes a higher $ amount of maintenance request in 2021 because that was the year when a tenant who was living there on their first year moved out and a new tenant moved in. The highest amount of maintenance request tend to be in the first year that a renter has lived there. 
 
-### Visualization - Net Operating Income from January 2015 - September 2022
+### Visualization - Net Operating Income from 2015 - 2021 ****
 
 Net operating income (NOI) is an important metric because it factors in expenses which is a big part of maintaining a property. NOI is an important indicator of profitability and accounts for other factors such as turnover that revenue can not account for.
 
@@ -77,7 +102,7 @@ Net operating income (NOI) is an important metric because it factors in expenses
 
 While Fort Pike consistently had a higher revenue, we can see that it was not the case for the years a turnover happened. In 2018 and 2020, we can see that the NOI was much closer as compared to when there was no turnover such as 2015-2017. In 2021, we can even see that Bright Leaf had a higher NOI than Fort Pike even though Fort Pike has a higher annual revenue.
 
-### Visualization - Cap Rate from January 2015 - September 2022
+### Visualization - Cap Rate from 2015 - 2021 ****
 
 Capitalization rate is an important metric because it describes the risk of a property. The lower cap rates tend to mean a lower risk investment, but it comes with not as high returns because it is a more desireable area with higher home values. While the home values grow higher, rent follows but at a slower pace because renters tend to be more limited in income compared to someone buying a home in the area. The higher cap rates correspond to a higher risk investment, but the higher risk comes with higher return. Like all investments, this follows the principles of "high risk, high reward."
 
@@ -87,13 +112,7 @@ The reason why I chose to compare the cap rate with operating expenses and witho
 
 As we can see from the visual, Bright Leaf tends to do better when accounting for operating expenses, but is more comparable to each other when only looking at revenue. This shows that a high turnover rate hurts investment properties potential because the higher expenses incurred from each turnover.
 
-### Visualization - Cash on Cash Return from January 2015 - September 2022
 
-Cash on Cash return is a term mostly used for real estate, but it is similar to looking at how much a stock has grown each year relative to how much you put in. This is a good metric to have to be able to compare it to other investments and see if the money could be used better elsewhere. For example, the S&P500 has a annual average return of around 9.87% from 2001 through 2021, so we can compare the cash on cash return to that and see how the property is performing.
-
-<iframe src='./visuals/COC.html' width=1000 height=600 frameBorder=0></iframe>
-
-We can see that the returns of Bright Leaf has done significantly better than Fort Pike. One thing that we can notice from this is that the years of turnover for Fort Pike seem to be hurting the returns even with the higher rent. When comparing Fort Pike on the years of turnover to the years of no turnover, the years of no turnover performed better than the years with turnover.
 
 ### Takeaways
  - High turnover leads to more $ amount spent on maintenance
