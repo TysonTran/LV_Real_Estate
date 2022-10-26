@@ -1,6 +1,6 @@
 # Las Vegas Real Estate Portfolio Analysis
 
-The main goal for investors is to grow their money over the long term. While the goal is to pick the best investments, there will always be some that out perform others. The main goal of this analysis is to perform a comparative analysis of two investment properties located in Las Vegas, Nevada and understand how they fare against each other. Also to understand how turnover affects a real estate investment.
+The main goal for investors is to grow their money over the long term. While the goal is to pick the best investments, there will always be some that out perform others. The main goal of this analysis is to perform a comparative analysis of two investment properties located in Las Vegas, Nevada and understand how they fare against each other. Also to understand how turnover affects a real estate investment in terms of revenue and expenses.
 
 
 ### Facts:
