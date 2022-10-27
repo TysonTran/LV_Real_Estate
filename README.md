@@ -4,14 +4,12 @@
 ## Research Question: Is there a relationship between property turnover and profit from 2015-2021?
 
 ### Inspiration
-The inspiration for the project originates from the dilemma of wanting the tenants to be happy and wanting to make more money as a business. This is a hard choice for most and most landlords tend to choose one or the other causing them to loose on lots of money with low rents or faced with high expenses through high turnover. The goal of this analysis is to see if there is a relationship and to find a inbetween that would make tenants stay long while landlords still make more money.
+The inspiration for the project originates from the dilemma of wanting the tenants to be happy and stay while wanting to make more money as a business. This is a hard choice for most and most landlords tend to choose one or the other causing them to loose on lots of money with low rents or faced with high expenses through high turnover. The goal of this analysis is to see if there is a relationship and to find an in between that would make tenants stay long while landlords still make more money.
 
 
 ### Facts:
 #### Bright Leaf
  - Located in North Las Vegas
- - Purchase 1/2013
- - Purchase Price: 109k
  - Currently rented below market rent: $1,400
  - Assumed value: $395,900 - from Zillow
  - Rent raised between 3-5% each year
@@ -19,8 +17,6 @@ The inspiration for the project originates from the dilemma of wanting the tenan
  
 #### Fort Pike
  - Located in South West Las Vegas
- - Purchase 2/2013
- - Purchase Price: 187k
  - Currently rented at market rent: $2,149
  - Assumed value: $527,500 - from Zillow
  - Rent raised between 3-5% each year if tenant renewed
@@ -30,61 +26,55 @@ The inspiration for the project originates from the dilemma of wanting the tenan
  - When the home is relisted, it is pushed up to market rent giving more income
  - Each move out requires cleaning and repairing the home for a new tenant
  - More expenses incur because the time it takes to repair home and get it rerented out takes about a month
- - Also have to pay administrative fees to property management to find new tenants
+ - Have to pay administrative fees to property management to find new tenants
  - New tenants usually have a lot of maintenance request the first year of tenancy because they find broken things that the old tenant lived with
 
 ### Overview of Data
 
-The data consist of 651 transactions relating to the business portfolio. Although most expenses are relating to a specific property, there are a few expenses that are a expense of the business such as the LLC tax. This data is exported from Quickbooks which provides accurate expenses for the properties and the business from January 2015 - September 2022. The data consist of 10 columns, while a few are unnecessary, it provides data of when the transaction occurred, if the transaction was an expense or income, where the money came from or is going, what the transaction is relating to, and how much was sent.
+The data consist of 663 transactions relating to this specific investment portfolio. Although most expenses are relating to a specific property, there are a few expenses that are a expense of the business such as the LLC tax. This data is exported from Quickbooks which provides accurate expenses for the properties and the business from December 2014 - September 2022. The data consist of 10 columns, while a few are unnecessary, it provides data of when the transaction occurred, if the transaction was an expense or income, where the money came from or is going, what the transaction is relating to, and how much was sent.
 
 <img src="./visuals/uncleaned_data.png" width=1000 height=400>
 
 ### Data Cleaning / Preprocessing
 
-To get the data into a form that is useable to perform an analysis on, we must make sure the final form of the data specifies which property the transaction is relating to, what the transaction was for, the amount of the transaction, and the year the transaction occurred. We are able to get an idea of which transaction is related to which property by looking at the memo and label the transaction based off of the information given in the memo.
+To get the data into a form that is useable to perform an analysis on, we must make sure the final form of the data specifies which property the transaction is relating to, what the transaction was for, the amount of the transaction, and the year the transaction occurred. We are able to get an idea of which transaction is related to which property by looking at the memo and labeling the transaction based off of the information given in the memo.
 
-In the preprocessing step, I also looked at maintenance repairs that were greater than 3k because these usually are capital expenditures. In this case, there was one and it was for an ac condenser. I removed this item because it would skew the results and these are items that have a estimated lifespan that should be saved for over its life.
+In the preprocessing step, I filtered the data to only inlude transactions from 2015 - 2021 because it would allow 7 years of full data. I then removed maintenance expenses that were over 1k dollars because the property management defines these as not normal maintenance jobs. I also removed maintenance expenses that were reimbursed. In this case, there was one transaction over 1k and 2 transaction were reimbursed, so in total, I removed 3 transactions. The reason that I removed the not normal maintenance jobs were because they were likely capital expenditures(capex) that have a certain lifespan that is known from the begining.
 
 <img src="./visuals/clean_data.png" width=700 heigh=400>
 
 
 ### Visualization - Annual Revenue from 2015 - 2021 ****
 
-To combat the problem with appreciation not being guaranteed, there is a second part to real estate investing. That is renting out the home. This provides a more secure way to generate some revenue to cover the expenses and bring some return to the money that was invested.
+The annual revenue is generated from renting the home to tenants through a one-year period. Since the leases do not start and end at the begining and end of the year, there is a rent increase at the new lease or renew of a lease sometime mid-year.
 
 <iframe src='./visuals/Revenue.html' width=1000 height=600 frameBorder=0></iframe>
 
-Fort pike has outperformed Bright Leaf in consistently providing a higher revenue. A higher revenue is good because it gives more room to remain profitable even when capital expenditures arise. Although the revenue of Fort Pike looks good, we are not sure how the high turnover rate will affect the profit because there are more repairs and maintenance request done.
+Fort pike has outperformed Bright Leaf in consistently providing a higher revenue. A higher revenue is good because it gives more room to remain profitable even when there are more expenses relating to maintenance. Although the revenue of Fort Pike looks good, we are not sure how the high turnover rate will affect the profit because we hypothesize that there are more repairs and maintenance request done when there is a turnover.
 
 ### Visualization - Repair Cost Distribution from 2015 - 2021
 
-In real estate investing, there are two types of ways to invest: cash flow or appreciation. Cash flow investing allows you to have the extra cash right away after using the rent money to pay the mortgage and expenses. Appreciation investing is a long game that is less guaranteed, but many times out performs cash flow investing. The types of investing depends on where the properties are located because in many places like California, it is very difficult to cash flow a property because of the high property values.
-
-In this case, it is important to account for appreciation when looking at how properties fare against each other because it is growth on the money invested that would be received when selling the property. It also shows how the areas the properties are in have changed because appreciation comes from mostly external factors such as the neighborhood becoming nicer or more people are moving to the area.
+To get a better understanding of the maintenance cost of the properties, we should look at the distribution of the cost. In a normal world, we would expect the cost to be normally distributed with a few outlier points to show the regular maintenance of a home and the few bigger expenses that sometimes happens when owning a home.
 
 <iframe src='./visuals/repair_dist.html' width=1000 height=600 frameBorder=0></iframe>
 
-While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show the full picture of the investment because it is only realized once sold. Real estate is a long term investment, so that figure could go down because appreciation is never guaranteed but over the long term, we expect it to appreciate further. This does hint towards Bright Leaf being a better investment in having more rent growth and more buyers in the area.
+We can see what we expected to happen fits with how the Bright Leaf repair cost is distributed. The Fort Pike repair cost distribution is positively skewed which means that there are frequent smaller expenses and also fewer larger expenses, but the larger expenses are much larger. This makes sense with high turnover because a lot of small things need to be fixed when a tenant moves out because most people are able to ignore small maintenance items when they have been living there, but it is different than someone who is not used to living in the place yet and can see all the small defects. The larger expenses also being larger make sense for high turnover because there will be heavy wear and tear on appliances with different tenants being much harsher on them than others.
 
 ### Visualization - Number of Maintenance Request from 2015 - 2021
 
-In real estate investing, there are two types of ways to invest: cash flow or appreciation. Cash flow investing allows you to have the extra cash right away after using the rent money to pay the mortgage and expenses. Appreciation investing is a long game that is less guaranteed, but many times out performs cash flow investing. The types of investing depends on where the properties are located because in many places like California, it is very difficult to cash flow a property because of the high property values.
-
-In this case, it is important to account for appreciation when looking at how properties fare against each other because it is growth on the money invested that would be received when selling the property. It also shows how the areas the properties are in have changed because appreciation comes from mostly external factors such as the neighborhood becoming nicer or more people are moving to the area.
+The number of maintenance request on turnover years will help give us an idea of how profit will be affected. We would expect the more maintenance request, the more expenses, thus leading to lower profit.
 
 <iframe src='./visuals/number of maintenance request.html' width=1000 height=600 frameBorder=0></iframe>
 
-While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show the full picture of the investment because it is only realized once sold. Real estate is a long term investment, so that figure could go down because appreciation is never guaranteed but over the long term, we expect it to appreciate further. This does hint towards Bright Leaf being a better investment in having more rent growth and more buyers in the area.
+What we see from this is that the turnover years for the Fort Pike property does have a higher number of maintenance request. We can especially see this in 2021 because this was a back to back turnover year where a first year tenant moved out and a new tenant moved in. While the 2018 turnover year has more maintenance request than 2015, 2017, and 2019, it has the same amount of maintenance request as the non-turnover year of 2016. To see if the turnover had an effect on maintence expense for the 2018 year, we should compare the cost of maintenance of 2016 vs 2018 to get a better look. The Bright Leaf property stayed relatively consistent with maintenance request sticking between 1 and 3 a year.
 
 ### Visualization - Cost of Maintenance Request per Year from 2015 - 2021
 
-In real estate investing, there are two types of ways to invest: cash flow or appreciation. Cash flow investing allows you to have the extra cash right away after using the rent money to pay the mortgage and expenses. Appreciation investing is a long game that is less guaranteed, but many times out performs cash flow investing. The types of investing depends on where the properties are located because in many places like California, it is very difficult to cash flow a property because of the high property values.
-
-In this case, it is important to account for appreciation when looking at how properties fare against each other because it is growth on the money invested that would be received when selling the property. It also shows how the areas the properties are in have changed because appreciation comes from mostly external factors such as the neighborhood becoming nicer or more people are moving to the area.
+Looking at the number of maintenance request doesn't tell the full story, but it does show a trend of what is happening on certain years. To see how profit is affected, we need to know how much expenses occur from maintenance.
 
 <iframe src='./visuals/maintenance cost by year.html' width=1000 height=600 frameBorder=0></iframe>
 
-While Bright Leaf has outperformed Fort Pike in appreciation, that doesn't show the full picture of the investment because it is only realized once sold. Real estate is a long term investment, so that figure could go down because appreciation is never guaranteed but over the long term, we expect it to appreciate further. This does hint towards Bright Leaf being a better investment in having more rent growth and more buyers in the area.
+To continue on from the last visualization we can see that 2018 has a much higher maintenance expense than 2016 even though they had the same number of maintenance request. We can also see that the cost for 2020 and 2021 were also much higher than all the non-turnover years and they were also much higher. This is very apparent in the peak in one year and a decrease the year after. Since 2021 was another turnover year after the 2020 turnover for Fort Pike, the cost did not decrease, it instead increased even more because 2021 consisted of both a first year tenant for the first part of the year and a new tenant for the other part of the year. The Bright Leaf property stayed relatively flat with the different years fluctuating between $85 - $1040.
 
 ### Visualization - Repairs and Maintenance Compared to Revenue from 2015 - 2021 ****
 
@@ -124,5 +114,5 @@ As we can see from the visual, Bright Leaf tends to do better when accounting fo
 
 ### Conclusion
 
-My goal for this analysis was to understand the best way to maximize revenue while minimizing the amount of maintenance request. The two factors that directly affect that is the rent charged and turnover. By having rent too high at renewal, it can cause the tenants to leave and a turnover to occur. With each turnover, there are many expenses that come with it on both the administrative and maintenance side. Turnover contributes to a high amount of maintenance request for the first year that the tenants live in the home and there are fees charged to find a new tenants for the home. The best way to bypass the turnover to save on the maintenance and administrative expenses is by keeping the rent close to market rent but below enough where it gives the tenant an incentive to stay. This is a win-win for both sides because the turnover will eat up a large amount of the rent gained of being able to rerent at market rent
+My goal for this analysis was to understand the best way to maximize revenue while minimizing the amount of maintenance request. The two factors that directly affect that is the rent charged and turnover. By having rent too high at renewal, it can cause the tenants to leave and a turnover to occur. With each turnover, there are many expenses that come with it on both the administrative and maintenance side. Turnover contributes to a high amount of maintenance request for the first year that the tenants live in the home and there are fees charged to find a new tenants for the home. The best way to bypass the turnover to save on the maintenance and administrative expenses is by keeping the rent close to market rent but below enough where it gives the tenant an incentive to stay. This is a win-win for both sides because the turnover will eat up a large amount of the rent gained of being able to rerent at market rent.
 
