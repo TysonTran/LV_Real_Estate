@@ -27,7 +27,7 @@ The inspiration for the project originates from the dilemma of wanting the tenan
  - Each move out requires cleaning and repairing the home for a new tenant
  - More expenses incur because the time it takes to repair home and get it rerented out takes about a month
  - Have to pay administrative fees to property management to find new tenants
- - New tenants usually have a lot of maintenance request the first year of tenancy because they find broken things that the old tenant lived with
+ - New tenants usually have a lot of maintenance request the first year of tenancy because they find minor broken/defective things that the old tenant lived with
 
 ### Overview of Data
 
@@ -105,12 +105,12 @@ As we can see from the visual, Bright Leaf tends to do better when accounting fo
 
 
 ### Takeaways
- - High turnover leads to more $ amount spent on maintenance
+ - High turnover leads to more $ amount spent on maintenance leading to less profit
  - Best to raise rent closer to market value at renewal while still staying below to give the tenant an incentive to stay
      - This allows us to bring in more revenue while not having the turnover eat up a lot of the extra revenue gained from the higher amount of maintenance request
  - Having back to back turnover will cost more than keeping the rent lower and having the tenant stay longer.
 
 ### Conclusion
 
-My goal for this analysis was to understand the best way to maximize revenue while minimizing the amount of maintenance request. The two factors that directly affect that is the rent charged and turnover. By having rent too high at renewal, it can cause the tenants to leave and a turnover to occur. With each turnover, there are many expenses that come with it on both the administrative and maintenance side. Turnover contributes to a high amount of maintenance request for the first year that the tenants live in the home and there are fees charged to find a new tenants for the home. The best way to bypass the turnover to save on the maintenance and administrative expenses is by keeping the rent close to market rent but below enough where it gives the tenant an incentive to stay. This is a win-win for both sides because the turnover will eat up a large amount of the rent gained of being able to rerent at market rent.
+From the analysis, we have reason to believe that property turnover does affect profit. My goal for this analysis was to understand the best way to maximize revenue while minimizing the amount of maintenance request. The two factors that directly affect that is the rent charged and turnover. By having rent too high at renewal, it can cause the tenants to leave and a turnover to occur. With each turnover, there are many expenses that come with it on both the administrative and maintenance side. Turnover contributes to a high amount of maintenance request for the first year that the tenants live in the home and there are fees charged to find a new tenants for the home. The best way to bypass the turnover to save on the maintenance and administrative expenses is by keeping the rent close to market rent but below enough where it gives the tenant an incentive to stay. This is a win-win for both sides because the turnover will eat up a large amount of the rent gained of being able to rerent at market rent.
 
