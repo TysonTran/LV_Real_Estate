@@ -44,7 +44,7 @@ In the preprocessing step, I filtered the data to only inlude transactions from 
 <img src="./visuals/clean_data.png" width=700 heigh=400>
 
 
-### Visualization - Annual Revenue from 2015 - 2021 ****
+### Visualization - Annual Revenue from 2015 - 2021
 
 The annual revenue is generated from renting the home to tenants through a one-year period. Since the leases do not start and end at the begining and end of the year, there is a rent increase at the new lease or renew of a lease sometime mid-year.
 
@@ -76,7 +76,7 @@ Looking at the number of maintenance request doesn't tell the full story, but it
 
 To continue on from the last visualization we can see that 2018 has a much higher maintenance expense than 2016 even though they had the same number of maintenance request. We can also see that the cost for 2020 and 2021 were also much higher than all the non-turnover years and they were also much higher. This is very apparent in the peak in one year and a decrease the year after. Since 2021 was another turnover year after the 2020 turnover for Fort Pike, the cost did not decrease, it instead increased even more because 2021 consisted of both a first year tenant for the first part of the year and a new tenant for the other part of the year. The Bright Leaf property stayed relatively flat with the different years fluctuating between $85 - $1040.
 
-### Visualization - Repairs and Maintenance Compared to Revenue from 2015 - 2021 ****
+### Visualization - Repairs and Maintenance Compared to Revenue from 2015 - 2021
 
 Repairs and Maintenance is important because these are expenses that need to be paid and take away from the profit at the end of the year. If this is not accounted for, it can hide how a property is actually performing.
 
@@ -84,23 +84,23 @@ Repairs and Maintenance is important because these are expenses that need to be 
 
 We can see that for most years, Bright Leaf has a relatively low dollar amount of maintenance request. Fort Pike has the highest maintenance dollar amount on years where turnover happens. We can see in 2018 it is high but the year after is low. We can also see that turnover causes a higher $ amount of maintenance request in 2021 because that was the year when a tenant who was living there on their first year moved out and a new tenant moved in. The highest amount of maintenance request tend to be in the first year that a renter has lived there. 
 
-### Visualization - Net Operating Income from 2015 - 2021 ****
+### Visualization - Net Operating Income from 2015 - 2021
 
 Net operating income (NOI) is an important metric because it factors in expenses which is a big part of maintaining a property. NOI is an important indicator of profitability and accounts for other factors such as turnover that revenue can not account for.
 
 <iframe src='./visuals/NOI.html' width=1000 height=600 frameBorder=0></iframe>
 
-While Fort Pike consistently had a higher revenue, we can see that it was not the case for the years a turnover happened. In 2018 and 2020, we can see that the NOI was much closer as compared to when there was no turnover such as 2015-2017. In 2021, we can even see that Bright Leaf had a higher NOI than Fort Pike even though Fort Pike has a higher annual revenue.
+While Fort Pike consistently had a higher revenue, we can see that the NOI declined a big amount on the years that turnover ocurred. In 2018 and 2020, we can see that the NOI was much closer as compared to when there was no turnover in 2015, 2016, 2017, and 2019. In 2021, we can even see that Bright Leaf had a higher NOI than Fort Pike even though Fort Pike has a higher annual revenue.
 
-### Visualization - Cap Rate from 2015 - 2021 ****
+### Visualization - Cap Rate from 2015 - 2021
 
-Capitalization rate is an important metric because it describes the risk of a property. The lower cap rates tend to mean a lower risk investment, but it comes with not as high returns because it is a more desireable area with higher home values. While the home values grow higher, rent follows but at a slower pace because renters tend to be more limited in income compared to someone buying a home in the area. The higher cap rates correspond to a higher risk investment, but the higher risk comes with higher return. Like all investments, this follows the principles of "high risk, high reward."
+<!-- Capitalization rate is an important metric because it describes the risk of a property. The lower cap rates tend to mean a lower risk investment, but it comes with not as high returns because it is a more desireable area with higher home values. While the home values grow higher, rent follows but at a slower pace because renters tend to be more limited in income compared to someone buying a home in the area. The higher cap rates correspond to a higher risk investment, but the higher risk comes with higher return. Like all investments, this follows the principles of "high risk, high reward." -->
 
 The reason why I chose to compare the cap rate with operating expenses and without is because the Fort Pike property has higher turnover which means that it has more maintenance request. Looking at the cap rate without operating expenses provides a better idea of how the property compares when there is not high turnover in the Fort Pike property.
 
 <iframe src='./visuals/CapRate.html' width=1000 height=600 frameBorder=0></iframe>
 
-As we can see from the visual, Bright Leaf tends to do better when accounting for operating expenses, but is more comparable to each other when only looking at revenue. This shows that a high turnover rate hurts investment properties potential because the higher expenses incurred from each turnover.
+As we can see from the visual, Bright Leaf tends to do better when accounting for operating expenses, but is more comparable to each other when only looking at revenue. This shows that a high turnover rate hurts investment properties potential because the higher expenses incurred from each turnover. We can especially see this when looking at 2018, 2020, and 2021 specifically because when looking at cap rate with no expenses, Bright Leaf and Fort Pike are comparable in 2018 and 2021 while Fort Pike outperforms in 2020. We can see when accounting for expenses that Bright Leaf outperformed Fort Pike in those 3 years.
 
 
 
@@ -109,8 +109,6 @@ As we can see from the visual, Bright Leaf tends to do better when accounting fo
  - Best to raise rent closer to market value at renewal while still staying below to give the tenant an incentive to stay
      - This allows us to bring in more revenue while not having the turnover eat up a lot of the extra revenue gained from the higher amount of maintenance request
  - Having back to back turnover will cost more than keeping the rent lower and having the tenant stay longer.
- - Bright Leaf outperformed Fort Pike even though the rent is below market rate
-
 
 ### Conclusion
 
