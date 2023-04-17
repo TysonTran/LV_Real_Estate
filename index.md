@@ -114,3 +114,8 @@ As we can see from the visual, Bright Leaf tends to do better when accounting fo
 
 From the analysis, we have reason to believe that property turnover does affect profit. My goal for this analysis was to understand the best way to maximize revenue while minimizing the amount of maintenance request. The two factors that directly affect that is the rent charged and turnover. By having rent too high at renewal, it can cause the tenants to leave and a turnover to occur. With each turnover, there are many expenses that come with it on both the administrative and maintenance side. Turnover contributes to a high amount of maintenance request for the first year that the tenants live in the home and there are fees charged to find a new tenants for the home. The best way to bypass the turnover to save on the maintenance and administrative expenses is by keeping the rent close to market rent but below enough where it gives the tenant an incentive to stay. This is a win-win for both sides because the turnover will eat up a large amount of the rent gained of being able to rerent at market rent.
 
+
+### Dashboard
+
+<iframe src="https://public.tableau.com/views/LVRealEstate/Dashboard1?:embed=yes&:display_count=yes"></iframe>
+
