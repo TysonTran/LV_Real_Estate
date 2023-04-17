@@ -117,5 +117,5 @@ From the analysis, we have reason to believe that property turnover does affect 
 
 ### Dashboard
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/LVRealEstate/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '1000' height = '650' scrolling='yes' ></iframe>
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/LVRealEstate/Dashboard1?:embed=yes&:display_count=yes&:showVizHome=no" width = '1100' height = '850' scrolling='yes' ></iframe>
 
